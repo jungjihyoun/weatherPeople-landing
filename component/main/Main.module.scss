@@ -1,0 +1,49 @@
+@import "styles/variable";
+
+.main-section{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+}
+
+.texts{
+  position: absolute;
+  left: 0;
+  bottom: 10%;
+  width: 100%;
+  color: white;
+  padding-left: 51px;
+  >text:nth-child(1) {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 119.902px;
+    line-height: 190px;
+  }
+  >text:nth-child(2) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 164.9%;
+    color: #6F6F6F;
+  }
+}
+
+.images{
+  width: 100%;
+  >img:nth-child(1) {
+    position: absolute;
+    right: 30%;
+    bottom: 45%;
+    width: 400px;
+    height: 100px;
+  }
+  >img:nth-child(2) {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 45%;
+    height: 90%;
+  }
+}

@@ -1,0 +1,47 @@
+@import "styles/variable";
+
+.Background{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  &__title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 33px;
+    color: white;
+    justify-content: center;
+    display: flex;
+  }
+
+  &__text-group{
+    color: white;
+    text-align: left;
+  }
+
+  &__text{
+    &--bold{
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 59px;
+      letter-spacing: -0.011em;
+    }
+    &--mid{
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 33px;
+      letter-spacing: -0.011em;
+      white-space: pre;
+    }
+    &--light {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 23px;
+      max-width: 673px;
+    }
+  }
+}
+
+

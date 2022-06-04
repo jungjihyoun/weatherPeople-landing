@@ -1,0 +1,51 @@
+@import "styles/variable";
+
+.overview{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  background-image: url('/images/overview-background.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  &__title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 33px;
+    color: white;
+    justify-content: center;
+    display: flex;
+  }
+
+  &__text-group{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+
+  }
+
+  &__text{
+    color: black;
+    &--bold{
+      font-style: normal;
+      font-weight: 800;
+      font-size: 32px;
+      line-height: 40px;
+      text-align: center;
+    }
+    &--light{
+      font-weight: 300;
+      font-size: 17px;
+      line-height: 160%;
+      text-align: center;
+    }
+
+  }
+}
+
+
